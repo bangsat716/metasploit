@@ -2,47 +2,20 @@
 import os
 print ("\033[034mMETASPLOIT")
 os.system('clear')
-print ("""
-
-
-                         $$\                         
-                         $$ |                        
-$$$$$$\$$$$\   $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$$\ 
-$$  _$$  _$$\ $$  __$$\\_$$  _|   \____$$\ $$  _____|
-$$ / $$ / $$ |$$$$$$$$ | $$ |     $$$$$$$ |\$$$$$$\  
-$$ | $$ | $$ |$$   ____| $$ |$$\ $$  __$$ | \____$$\ 
-$$ | $$ | $$ |\$$$$$$$\  \$$$$  |\$$$$$$$ |$$$$$$$  |
-\__| \__| \__| \_______|  \____/  \_______|\_______/ 
-                                                     
-                                                     
-                                                     
-          $$\           $$\   $$\                    
-          $$ |          \__|  $$ |                   
- $$$$$$\  $$ | $$$$$$\  $$\ $$$$$$\                  
-$$  __$$\ $$ |$$  __$$\ $$ |\_$$  _|                 
-$$ /  $$ |$$ |$$ /  $$ |$$ |  $$ |                   
-$$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$\                
-$$$$$$$  |$$ |\$$$$$$  |$$ |  \$$$$  |               
-$$  ____/ \__| \______/ \__|   \____/                
-$$ |                                                 
-$$ |                                                 
-\__|                                                 
-
-
-""")
-
 import sys, time
-def jalan (kata):
+def main (kata):
         for e in kata:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.2)
-jalan('\033[031m          >>>>>>>>>The X Queens<<<<<<<<<<<               '.center(44))
-jalan('         >>>>>>>>>>TeaMCyber<<<<<<<<<<<                '.center(44))
+main("""
+      >>>>M_aref<<<<
+    >>>>The-X-Cyber<<<<
+""")
 nama = input('Siapa Nama Anda?')
-jalan('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'.center(44))
+os.system('clear')
 print ('Selamat Datang' , nama)
-jalan('\033[034m          >>>>>>>>>> metasploit <<<<<<<<<<<<<              '.center(44))
+main('\033[034m>>>> metasploit <<<<')
 import os
 os.system('clear')
 import os
@@ -65,8 +38,8 @@ print ("""
 		      88
 		    88
 		  88
-		88		 Author  : The X Queens
-	      88		 Youtube : TeaM Cyber
+		88		 Author  : M_aref
+	      88		 Youtube : The-X-Cyber
   	    88
 	  88 			 8888888888888888888888
 	88
